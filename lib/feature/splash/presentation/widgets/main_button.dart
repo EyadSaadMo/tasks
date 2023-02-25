@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:test1/core/colors/colors.dart';
-import 'package:test1/core/utilities/media_query.dart';
 
 class MainButton extends StatelessWidget {
   final Widget widget;
@@ -23,7 +22,7 @@ class MainButton extends StatelessWidget {
           color: ColorManager.kSplashColor,
           borderRadius: BorderRadius.circular(15.0),
         ),
-        child: widget,
+        child: Center(child: widget),
       ),
     );
   }

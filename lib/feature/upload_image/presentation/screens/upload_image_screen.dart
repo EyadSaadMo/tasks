@@ -20,7 +20,7 @@ class _UploadImageState extends State<UploadImage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            height: kHeight(context) * 0.1,
+            height: kHeight(context) * 0.2,
           ),
           Expanded(
             flex: 3,
@@ -34,8 +34,11 @@ class _UploadImageState extends State<UploadImage> {
             ),
           ),
           Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              SizedBox(
+                height: kHeight(context) * 0.01,
+              ),
               const Text(
                 AppStrings.upload,
                 style: TextStyle(
@@ -54,7 +57,7 @@ class _UploadImageState extends State<UploadImage> {
                 height: kHeight(context) * 0.01,
               ),
               const SizedBox(
-                width: 180,
+                width: 185,
                 child: Text(
                   AppStrings.uploadImage,
                   style:

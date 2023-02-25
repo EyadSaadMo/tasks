@@ -20,7 +20,7 @@ class Dialogue extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(20.0),
               child: Material(
-                elevation: 20,
+                elevation: 10,
                 child: SizedBox(
                   width: kWidth(context) / 1.5,
                   height: kHeight(context) / 2.5,
